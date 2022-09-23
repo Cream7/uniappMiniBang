@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/person/index",
+    "pages/index/index",
+    "pages/common_set/index",
+    "pages/map/index",
+    "pages/order/index",
+    "pages/procedure/index",
+    "pages/real_time_data/index",
+    "pages/site_list/index",
+    "pages/weighing_detail/index",
+    "pages/weighing_info/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "迷你磅",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "navbar": "/components/navbar/index"
+  }
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex.data-v-be923164 {
+  display: flex;
+}
+.flex-align-center.data-v-be923164 {
+  align-items: center;
+}
+.flex-justify-content.data-v-be923164 {
+  justify-content: center;
+}
+.flex-justify-around.data-v-be923164 {
+  justify-content: space-around;
+}
+.flex-justify-between.data-v-be923164 {
+  justify-content: space-between;
+}
+.flex-justify-end.data-v-be923164 {
+  justify-content: flex-end;
+}
+.flex-align-end.data-v-be923164 {
+  align-items: flex-end;
+}
+.flex-align-start.data-v-be923164 {
+  align-items: flex-start;
+}
+.flex-wrap.data-v-be923164 {
+  flex-wrap: wrap;
+}
+.flex-direction.data-v-be923164 {
+  flex-direction: column;
+}
+.tab-wrapper.data-v-be923164 {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.head.data-v-be923164 {
+  width: 100%;
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+.navbar.data-v-be923164 {
+  position: relative;
+}
+.navbar .nav-title.data-v-be923164 {
+  width: 100%;
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: 500;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.navbar .nav-btn.data-v-be923164 {
+  position: absolute;
+}
+.navbar .nav-capsule.data-v-be923164 {
+  width: 140rpx;
+  margin-left: 30rpx;
+}
+.navbar .navbar-v-line.data-v-be923164 {
+  width: 1px;
+  height: 32rpx;
+  background-color: #e5e5e5;
+}
+.back-pre.data-v-be923164, .back-home.data-v-be923164 {
+  width: 32rpx;
+  height: 36rpx;
+  padding: 0 10rpx;
+}
+.nav-capsule .back-home.data-v-be923164 {
+  width: 36rpx;
+  height: 40rpx;
+}
+.choose.data-v-be923164 {
+  height: 68rpx;
+  font-size: 30rpx;
+}
+.down.data-v-be923164 {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 16rpx;
+}
+.choose-time.data-v-be923164 {
+  font-size: 28rpx;
+}
+.change.data-v-be923164 {
+  color: #fff;
+  font-size: 30rpx;
+}
+.search.data-v-be923164 {
+  padding-right: 12px;
+}
+.picker.data-v-be923164 {
+  color: #fff;
+  padding: 20rpx 24rpx;
+}
+

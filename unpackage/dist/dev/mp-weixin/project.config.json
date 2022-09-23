@@ -1,0 +1,44 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "checkSiteMap": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx60b3b2b731c9d0b4",
+  "projectname": "迷你磅",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "个人中心",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/person/index"
+        }
+      ]
+    }
+  }
+}

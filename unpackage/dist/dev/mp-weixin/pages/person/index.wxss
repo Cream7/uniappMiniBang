@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex {
+  display: flex;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-justify-content {
+  justify-content: center;
+}
+.flex-justify-around {
+  justify-content: space-around;
+}
+.flex-justify-between {
+  justify-content: space-between;
+}
+.flex-justify-end {
+  justify-content: flex-end;
+}
+.flex-align-end {
+  align-items: flex-end;
+}
+.flex-align-start {
+  align-items: flex-start;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-direction {
+  flex-direction: column;
+}
+page {
+  background-color: #E1E6EC;
+  background-image: linear-gradient(-180deg, #E1E6EC 2%, #F0F4F7 96%), radial-gradient(at 50% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.5) 200%);
+  background-blend-mode: normal, color-burn;
+}
+ .head {
+  border-radius: 0 0 32rpx 32rpx;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 32rpx 32rpx;
+}
+.wrapper .info {
+  z-index: 999;
+  padding: 20rpx 32rpx 32rpx 32rpx;
+}
+.wrapper .info .head-img {
+  width: 160rpx;
+  height: 160rpx;
+}
+.user-info {
+  color: #fff;
+  margin-left: 32rpx;
+}
+.user-tel {
+  color: #fff;
+  font-size: 30rpx;
+  margin-top: 24rpx;
+}
+.user-tel-btn {
+  margin-top: 12rpx !important;
+  padding-left: 0rpx !important;
+  background-color: transparent !important;
+}
+.gif-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 100rpx;
+  width: 100%;
+  mix-blend-mode: screen;
+}
+.body {
+  padding: 10rpx 32rpx 24rpx 32rpx;
+}
+.body .tab-list {
+  width: 30%;
+  margin: 16rpx 0;
+  padding: 48rpx 0;
+  text-align: center;
+  border-radius: 12rpx;
+  background-color: #fff;
+  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.2);
+}
+.icon-tab {
+  width: 66rpx;
+  height: 66rpx;
+}
+.title {
+  font-size: 24rpx;
+  margin-top: 12rpx;
+  letter-spacing: 2rpx;
+}
+button::after {
+  border: none;
+}
+.show-list {
+  margin-top: 20rpx;
+  padding: 20rpx 24rpx;
+  border-radius: 12rpx;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.15), inset 1px 2px 0 0 #fff;
+}
+.show-list .feed .icon-tab {
+  display: block;
+}
+.show-list .tabs {
+  flex: 1;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+.bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 40rpx;
+  left: 0;
+  text-align: center;
+}
+.bottom image {
+  width: 88%;
+  height: 160rpx;
+}
+

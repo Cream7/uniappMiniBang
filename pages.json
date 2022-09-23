@@ -1,0 +1,53 @@
+{
+	"pages": [
+		{
+			"path":"pages/map/index"
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/common_set/index"
+		},
+		{
+			"path": "pages/order/index"
+		},
+		{
+			"path": "pages/person/index"
+		},
+		{
+			"path": "pages/procedure/index"
+		},
+		{
+			"path": "pages/real_time_data/index"
+		},
+		{
+			"path": "pages/site_list/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 20,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/weighing_detail/index"
+		},
+		{
+			"path": "pages/weighing_info/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "迷你磅",
+		"navigationStyle": "custom"
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "个人中心",
+				"path": "pages/person/index",
+				"query": ""
+			}
+		]
+	}
+}
