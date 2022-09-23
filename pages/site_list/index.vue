@@ -22,6 +22,7 @@
 	</view>
 </template>
 <script module="utils" lang="wxs" src="../../common/wxs/index.wxs"></script>
+
 <script>
 	export default {
 		data() {

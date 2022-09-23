@@ -3,10 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import Navbar from './components/navbar/index.vue'
+import CarKey from './components/carKey/index.vue'
 import api from '@/common/api.js'
 
 Vue.prototype.$api = api;
 Vue.component('navbar',Navbar);
+Vue.component('carKey',CarKey);
 
 Vue.config.productionTip = false;
 
